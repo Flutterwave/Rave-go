@@ -54,14 +54,15 @@ type TransferInterface interface {
 }
 
 type SinglePaymentData struct {
-	SecKey        string      `json:"seckey"`
-	AccountBank   string      `json:"account_bank"`
-	AccountNumber string      `json:"account_number"`
-	Amount        int         `json:"amount"`
-	Narration     string      `json:"narration"`
-	Currency      string      `json:"currency"`
-	Reference     string      `json:"reference"`
-	Meta          types.Slice `json:"meta"`
+	SecKey          string      `json:"seckey"`
+	AccountBank     string      `json:"account_bank"`
+	AccountNumber   string      `json:"account_number"`
+	Amount          int         `json:"amount"`
+	Narration       string      `json:"narration"`
+	Currency        string      `json:"currency"`
+	Reference       string      `json:"reference"`
+	Meta            types.Slice `json:"meta"`
+	BeneficiaryName string      `json:"beneficiary_name"`
 }
 
 type BulkPaymentData struct {
