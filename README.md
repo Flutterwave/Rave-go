@@ -1,7 +1,7 @@
 # Rave-go
 
 ## Introduction
-This is a wrapper around the [API](https://flutterwavedevelopers.readme.io/v2.0/reference) for [Rave by Flutterwave](https://rave.flutterwave.com).
+This is a Go wrapper around the [API](https://flutterwavedevelopers.readme.io/v2.0/reference) for [Rave by Flutterwave](https://rave.flutterwave.com).
 #### Payment types implemented:
 * Card Payments
 * Bank Account Payments
