@@ -15,7 +15,7 @@ This is a Go wrapper around the [API](https://flutterwavedevelopers.readme.io/v2
 ## Installation
 To install, run
 
-```get github.com/anjolabassey/Rave-go/rave```
+```go get github.com/anjolabassey/Rave-go/rave```
 
 Note: This is currently under active development
 ## Import Package
